@@ -1,0 +1,19 @@
+# Prerequisites
+*.pyc
+__pycache__/
+
+# Environments
+venv/
+.env
+
+# Data - CRITICAL: Never commit clinical data (even fake Synthea data)
+data/
+*.csv
+*.txt
+*.hl7
+*.ndjson
+*.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
